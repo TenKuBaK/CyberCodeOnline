@@ -13,7 +13,7 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Povídat si",
+ 	 	 	"trans": "Konverzace",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
@@ -51,7 +51,7 @@
  	 	 	 	"eng": "Enter pin code"
  	 	 	},
  	 	 	"story": {
- 	 	 	 	"trans": "Našli jste starý uzamčený trezor, zdá se, že uvnitř je dopis s nějakým textem nápisem na něm.",
+ 	 	 	 	"trans": "Našli jste starý uzamčený trezor, zdá se, že je na něm nálepka s nějakým textem.",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -100,7 +100,7 @@
  	 	 	 	"eng": "Gang Level"
  	 	 	},
  	 	 	"resource": {
- 	 	 	 	"trans": "Zdroj",
+ 	 	 	 	"trans": "Suroviny",
  	 	 	 	"eng": "Resource"
  	 	 	},
  	 	 	"funding": {
@@ -112,7 +112,7 @@
  	 	 	 	"eng": "members"
  	 	 	},
  	 	 	"occupationPoint": {
- 	 	 	 	"trans": "Kontrola nad Shangri-lou",
+ 	 	 	 	"trans": "Kontrola nad Shangri-la",
  	 	 	 	"eng": "Control over Shangri-la"
  	 	 	},
  	 	 	"nextUpkeepDate": {
@@ -123,7 +123,7 @@
  	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
- 	 	 	 	"trans": "kritické zdroje",
+ 	 	 	 	"trans": "kritické hodnoty surovin",
  	 	 	 	"eng": "resource critical"
  	 	 	},
  	 	 	"insufficientFound": {
@@ -131,7 +131,7 @@
  	 	 	 	"eng": "Insufficient Funds"
  	 	 	},
  	 	 	"insufficientResource": {
- 	 	 	 	"trans": "Nedostatečné zdroje",
+ 	 	 	 	"trans": "Nedostatečné suroviny",
  	 	 	 	"eng": "Insufficient Resources"
  	 	 	},
  	 	 	"occupation": {
@@ -151,7 +151,7 @@
  	 	 	 	"eng": "Community Content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Komunita přispívá k tomuto obsahu. Klikněte zde a přispějte vaším vlastním obsahem.",
+ 	 	 	 	"trans": "Tento obsah je tvořen komunitou. Klikněte zde a přispějte vaším vlastním obsahem.",
  	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
  	 	 	}
  	 	},
@@ -163,17 +163,17 @@
  	 	 	 	 	 	"eng": "Decryption successful"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "zpracovává se",
+ 	 	 	 	 	 	"trans": "zpracovávání",
  	 	 	 	 	 	"eng": "processing"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Našel jsi uzamčenou kořist s barevnou klávesnicí, měl bys být schopný jí odemknout správným pořadím barev.",
+ 	 	 	 	 	"trans": "Našel jsi uzamčenou kořist s barevnou klávesnicí, měl bys být schopný ji odemknout správným pořadím barev.",
  	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
  	 	 	 	},
  	 	 	 	"progress": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Odemknout pokrok",
+ 	 	 	 	 	 	"trans": "Odemknout postup",
  	 	 	 	 	 	"eng": "Unlock progress"
  	 	 	 	 	}
  	 	 	 	},
@@ -187,7 +187,7 @@
  	 	 	 	},
  	 	 	 	"lose": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Dešifrování se nezdařilo",
+ 	 	 	 	 	 	"trans": "Dešifrování selhalo",
  	 	 	 	 	 	"eng": "Decryption failed"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -205,7 +205,7 @@
  	 	},
  	 	"supportUkraine": {
  	 	 	"description": {
- 	 	 	 	"trans": "Lidé na Ukrajině, v Rusku a celém světě trpí kvůli ambici jednoho člověka.\n Propagujte lásku, ne válku.",
+ 	 	 	 	"trans": "Lidé na Ukrajině, v Rusku a v celém světě trpí kvůli ambici jednoho člověka.\\n Propagujte lásku, ne válku.",
  	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
@@ -235,7 +235,7 @@
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "Umístěte předměty do trezoru",
+ 	 	 	 	"trans": "Vložte předměty do svého trezoru",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
@@ -243,7 +243,7 @@
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "Vyberte předměty z vašeho trezoru",
+ 	 	 	 	"trans": "Vyberte předměty ze svého trezoru",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlot": {
@@ -284,7 +284,7 @@
  	 	 	},
  	 	 	"upgradeVaultModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Upgrade trezoru",
+ 	 	 	 	 	"trans": "Vylepšit trezor",
  	 	 	 	 	"eng": "Upgrade Vault"
  	 	 	 	},
  	 	 	 	"confirm": {
@@ -344,7 +344,7 @@
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
- 	 	 	 	"trans": "Prosíme, neposílejte stejné zprávy opakovaně, spamy budou ztišeny.",
+ 	 	 	 	"trans": "Prosíme, neposílejte stejnou zprávu opakovaně, spamy budou ztišeny.",
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
@@ -359,7 +359,7 @@
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
- 	 	 	 	"trans": "povídat si",
+ 	 	 	 	"trans": "konverzace",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
@@ -381,7 +381,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Chatovací exploit je aktivní, všechny odeslané zprávy budou změněny. Použijte ${vpnName} pro zabezpečení vašeho připojení!",
+ 	 	 	 	 	"trans": "Konverzační exploit je aktivní, všechny odeslané zprávy budou upraveny. Použijte ${vpnName} pro zabezpečení vašeho připojení!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -405,7 +405,7 @@
  	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
- 	 	 	 	"trans": "Chatovací systém není připojen",
+ 	 	 	 	"trans": "konverzační systém není připojen",
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
@@ -416,7 +416,7 @@
  	 	 	 	 	 	"playerName",
  	 	 	 	 	 	"time"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Autor: ${playerName} ${time} před",
+ 	 	 	 	 	"trans": "Autor: ${playerName} před ${time}",
  	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
  	 	 	 	}
  	 	 	},
@@ -429,7 +429,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Chat gangu bude povolen, jakmile budete členem gangu.\\nStaňte se členem gangu hledáním přátel v chatu, nebo založte vlastní gang a pozvěte své přátele.",
+ 	 	 	 	 	"trans": "konverzace gangu bude zpřístupněna, jakmile budete členem gangu.\\nstaňte se členem gangu hledáním přátel v chatu, nebo založte vlastní gang a pozvěte své přátele!",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -456,7 +456,7 @@
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Eliminovaný",
+ 	 	 	 	"trans": "Zemřel jsi",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
@@ -486,7 +486,7 @@
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"lowPrintLevelTip3": {
- 	 	 	 	"trans": "Alternativně můžete použít automatický tisk a prodávat vaše výrobky na černém trhu.",
+ 	 	 	 	"trans": "Nebo použijte automatický tisk a prodávejte vaše výrobky na Černém trhu",
  	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
@@ -526,7 +526,7 @@
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
- 	 	 	 	"trans": "Premiový Obchod",
+ 	 	 	 	"trans": "Prémiový Obchod",
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
@@ -552,14 +552,14 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"units"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Jednotky ${units}",
+ 	 	 	 	 	"trans": "${units} jednotek",
  	 	 	 	 	"eng": "${units} units"
  	 	 	 	},
  	 	 	 	"minute": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Jednotky ${minutes}",
+ 	 	 	 	 	"trans": "Přeskočit ${minutes} minut",
  	 	 	 	 	"eng": "Skip ${minutes} minutes"
  	 	 	 	},
  	 	 	 	"title2": {
@@ -567,7 +567,7 @@
  	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Globální skok vám umožní přeskočit AFK dobu čekání a tím ji okamžitě dokončit. \n     Tento efekt bude použit na všechny hráče, kteří provádějí AFK akci",
+ 	 	 	 	 	"trans": "Okamžitě dokončete práci pro všechny právě aktivní hráče a získejte body skoků pro vyjádření podpory ostatním hráčům!",
  	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
@@ -576,7 +576,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Zdarma přeskočení času (${itemSkipMinutes} minut)",
+ 	 	 	 	 	"trans": "Přeskočení času zdarma (${itemSkipMinutes} minut)",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -594,7 +594,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Globální skok umožní přeskočit čekací dobu všem hráčům, kteří vykonávají AFK akci",
+ 	 	 	 	 	"trans": "Globální skok umožní přeskočit čekací dobu pro všechny hráče, kteří vykonávají AFK práci",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -612,7 +612,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Globální skok vám umožní přeskočit AFK dobu čekání a tím ji okamžitě dokončit. \n     Tento efekt bude použit na všechny hráče, kteří vykonávají AFK akci",
+ 	 	 	 	"trans": "Globální skok vám umožní přeskočit AFK čekací dobu a okamžitě ji dokončit. \n     Tento efekt bude použit na všechny hráče, kteří vykonávají AFK práci",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
@@ -663,7 +663,7 @@
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Komunitní příběh",
+ 	 	 	 	 	"trans": "Komunitní Příběh",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	}
  	 	 	}
@@ -686,21 +686,21 @@
  	 	 	"lockModal": {
  	 	 	 	"unlock": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Odemknout položku?",
+ 	 	 	 	 	 	"trans": "Odemknout předmět?",
  	 	 	 	 	 	"eng": "Unlock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Když je položka odemčena, můžete ji obchodovat nebo zrušit.",
+ 	 	 	 	 	 	"trans": "Když je předmět odemčen, můžete s ním obchodovat nebo jej rozebrat.",
  	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"lock": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Zamknout položku?",
+ 	 	 	 	 	 	"trans": "Zamknout přemět?",
  	 	 	 	 	 	"eng": "Lock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Můžete zabránit náhodnému škrábání nebo prodeji této položky.",
+ 	 	 	 	 	 	"trans": "Můžete zabránit náhodnému rozebrání nebo prodeji tohoto předmětu.",
  	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
  	 	 	 	 	}
  	 	 	 	}
@@ -714,7 +714,7 @@
  	 	 	 	"eng": "Unlocked"
  	 	 	},
  	 	 	"upgradeModuleTitleHeader": {
- 	 	 	 	"trans": "Upgrady sloty",
+ 	 	 	 	"trans": "Vylepší sloty",
  	 	 	 	"eng": "Upgrades Slots"
  	 	 	},
  	 	 	"upgradeModuleTitle": {
@@ -729,7 +729,7 @@
  	 	 	 	"eng": "Equip"
  	 	 	},
  	 	 	"cantEquip": {
- 	 	 	 	"trans": "Vaše úroveň je pro tuto položku příliš nízká",
+ 	 	 	 	"trans": "Vaše úroveň je pro tento předmět příliš nízká",
  	 	 	 	"eng": "Your level is too low for this item"
  	 	 	},
  	 	 	"unequip": {
@@ -748,15 +748,15 @@
  	 	 	 	"eng": "You can't print equipment while ${currentAction}"
  	 	 	},
  	 	 	"printCache": {
- 	 	 	 	"trans": "Tisková mezipaměť",
+ 	 	 	 	"trans": "Tisková Schránka",
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "Proměňte tuto mezipaměť na položku zbraně nebo vybavení, které můžete Spojené arabské emiráty.",
+ 	 	 	 	"trans": "Proměňte tuto schránku na zbraň nebo vybavení, které můžete použít.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
- 	 	 	 	"trans": "Odemkněte kontejner",
+ 	 	 	 	"trans": "Odemkněte Kontejner",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
  	 	 	"cantOpenContainerNotIdleV2": {
@@ -764,7 +764,7 @@
  	 	 	 	"eng": "You cannot unlock containers right now"
  	 	 	},
  	 	 	"openRedEnvelop": {
- 	 	 	 	"trans": "OTEVŘENO",
+ 	 	 	 	"trans": "Otevřeno",
  	 	 	 	"eng": "Open"
  	 	 	},
  	 	 	"cannotOpenRedEnvelopNotIdle": {
@@ -789,15 +789,15 @@
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Jste si jisti, že chcete resetovat továrnu?",
+ 	 	 	 	 	 	"trans": "Jste si jisti, že chcete resetovat do továrního nastavení?",
  	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Resetováním této položky ztratíte veškerou kalibraci, budete však moci obchodovat jiným hráčům.",
+ 	 	 	 	 	 	"trans": "Resetováním tohoto předmětu ztratíte veškerou kalibraci, budete jej však moci obchodovat s ostatními hráči.",
  	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
  	 	 	 	 	}
  	 	 	 	},
- 	 	 	 	"trans": "Tovární nastavení",
+ 	 	 	 	"trans": "Resetování do Továrního nastavení",
  	 	 	 	"eng": "Factory Reset"
  	 	 	},
  	 	 	"noItem": {
@@ -806,14 +806,14 @@
  	 	 	 	 	"eng": "You no longer have this item"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Stiskněte zpět a vraťte se zpět do inventáře",
+ 	 	 	 	 	"trans": "stiskněte zpět pro návrat do inventáře",
  	 	 	 	 	"eng": "press back to go back to inventory"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
  	 	 	"title": {
- 	 	 	 	"trans": "Tajné klíče",
+ 	 	 	 	"trans": "Tajné Klíče",
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
@@ -821,7 +821,7 @@
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "Tajné klíče můžete získat z dungeonů",
+ 	 	 	 	"trans": "Tajné klíče můžete získat z Dungeonů",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
@@ -1748,7 +1748,7 @@
  	 	 	 	"eng": "Password protected dungeon"
  	 	 	},
  	 	 	"enterDungeon": {
- 	 	 	 	"trans": "Vstoupit do dungeonu",
+ 	 	 	 	"trans": "Vstoupit do Dungeonu",
  	 	 	 	"eng": "Enter Dungeon"
  	 	 	},
  	 	 	"listButton": {
@@ -1757,13 +1757,13 @@
  	 	 	 	 	"eng": "Dungeons"
  	 	 	 	},
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "V dungeonech nebudete po boji léčeni, nepřátelé tam jsou silnější, ale také je možné získat více zkušeností a kořisti",
+ 	 	 	 	 	"trans": "V dungeonech nebudete po boji vyléčeni, nepřátelé jsou silnější, ale také je zde více zkušeností a kořisti",
  	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
  	 	 	 	}
  	 	 	},
  	 	 	"underMaintenance": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Údržba dungeonů",
+ 	 	 	 	 	"trans": "Údržba Dungeonů",
  	 	 	 	 	"eng": "Dungeons Under Maintenance"
  	 	 	 	},
  	 	 	 	"des": {
@@ -2351,7 +2351,7 @@
  	 	 	 	"eng": "combat"
  	 	 	},
  	 	 	"dungeon": {
- 	 	 	 	"trans": "Dungeon",
+ 	 	 	 	"trans": "dungeon",
  	 	 	 	"eng": "dungeon"
  	 	 	},
  	 	 	"social": {
@@ -3699,7 +3699,7 @@
  	 	 	},
  	 	 	"dungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "žalář",
+ 	 	 	 	 	"trans": "dungeon",
  	 	 	 	 	"eng": "dungeon"
  	 	 	 	}
  	 	 	}
@@ -3723,19 +3723,19 @@
  	 	"random": {
  	 	 	"clearChallengeDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Dungeonový válečník",
+ 	 	 	 	 	"trans": "dungeonový válečník",
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeonCoOp": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Dungeonoví přátelé",
+ 	 	 	 	 	"trans": "dungeonoví přátelé",
  	 	 	 	 	"eng": "dungeon friends"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Dungeonový dobrodruh",
+ 	 	 	 	 	"trans": "dungeonový dobrodruh",
  	 	 	 	 	"eng": "dungeon crawler"
  	 	 	 	}
  	 	 	},
@@ -5952,7 +5952,7 @@
  	 	 	 	"eng": "Gang Invasion Order Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Jednoduché vysílací zařízení , které se připojí na váš šifrovaný kanál gangu a vydává rozkaz invaze. \r\n         Tato položka je nutná pro aktivaci gangových dungeonů",
+ 	 	 	 	"trans": "Jednoduché vysílací zařízení , které se připojí na váš šifrovaný kanál gangu a vydává rozkaz invaze. \r\n         Tato položka je nutná pro aktivaci Gangových Dungeonů",
  	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
  	 	 	}
  	 	},
@@ -6692,7 +6692,7 @@
  	 	 	},
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Shromážděte všechny 3 různé fragmenty klíčů z dungeonů ve všech 3 zónách v předchozí stanici, \r\n                     pak přejděte k [Terminálu] v centru města [Hub] a vytvořte repliku klíče pořebnou pro odemčení další oblasti",
+ 	 	 	 	 	"trans": "Shromážděte všechny 3 různé fragmenty klíčů z Dungeonů ve všech 3 zónách v předchozí stanici, \r\n                     pak přejděte k [Terminálu] v centru města [Hub] a vytvořte repliku klíče pořebnou pro odemčení další oblasti",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
@@ -7290,7 +7290,7 @@
  	 	 	},
  	 	 	"joinDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Připojit se k dungeonu",
+ 	 	 	 	 	"trans": "Připojit se k Dungeonu",
  	 	 	 	 	"eng": "Join Dungeon"
  	 	 	 	},
  	 	 	 	"description": {
